@@ -1,5 +1,3 @@
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-
 import os
 import tensorflow
 import numpy as np
@@ -20,6 +18,12 @@ def index():
     if file is None or file.filename == "":
         return jsonify({"error":"no file"})
     
+    # Call the predict function with the user id from the file
+    user_id = 1 # Replace this with the user id from the file
+    response_json = predict(user_id)
+    
+    return jsonify(response_json)
+
 def predict(id):
     """Makes a prediction for a user and returns recommended places"""
     id_place = range(1, 20)
@@ -58,3 +62,8 @@ def predict(id):
         "lat": "",
         "name": ""
     }
+    
+    return response_json
+
+if __name__ == "__main__":
+    app.run()
