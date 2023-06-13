@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "256485714894",
+    "firebase_url": "https://retrip-connect-your-trip-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "retrip-connect-your-trip",
+    "storage_bucket": "retrip-connect-your-trip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256485714894:android:e85f7afec7e6d08e79199f",
+        "android_client_info": {
+          "package_name": "com.example.retripapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256485714894-ugpsbha7m5q3fih0r8c740tcho06rv78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_wBmuYTMS3Wxqjt9wCTBJXIKSFrl2d8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256485714894-ugpsbha7m5q3fih0r8c740tcho06rv78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
